@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>大学生互联网防骗指南</title>
+		<link rel="stylesheet" type="text/css" href="./css/navigation_file.css"/>
+		<style type="text/css">
+			html,body{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			#show1{
+				opacity:0;
+				color:darkred;
+			}
+			
+			#show2{
+				opacity:0;
+				color:darkred;
+			}
+			
+			#show3{
+				opacity:0;
+				color:darkred;
+			}
+		</style>
+		<script type="text/javascript">
+			function btn1(){
+				document.getElementById('show1').style.opacity = '1';
+			}
+			function btn2(){
+				document.getElementById('show2').style.opacity = '1';
+			}
+			function btn3(){
+				document.getElementById('show3').style.opacity = '1';
+			}
+			function jump() {
+			    window.location.href = '../../fangzhapian/navigation/navigation.html';
+			}
+		</script>
+	</head>
+	<body background="./img/background.png" style="background-repeat:no-repeat;background-attachment:fixed;background-size:100% 100%; ">
+		<div class="div1">
+			<div class="back">
+			</div>
+			<div class="div2">
+				<img src="./img/subjecttitle.png">
+			</div>
+			<form>	
+					<div class="div3">
+						
+					
+						<div class="question">
+							<label class="quiz-content">
+							<strong>热爱网购的小王因为没有抢到自己心仪已久的鞋子，遂通过在网上添加的代购购买。5日后，代购称“商品被海关扣下，要加缴关税”为由向小王索要1000元的“关税缴纳金”此时小王应该？</strong>
+							</label>
+							<div class="answers">
+							<input type="radio" value="1" name="bb" > A、赶快向代购支付“关税缴纳金” 等着新衣服去约会
+							<div class="clearfix"></div>
+							<input type="radio" value="2" name="bb" > B、立即拨打报警电话。
+							</div>
+							<div id="show1">
+							正确答案：B、立即拨打报警电话。
+							</div>
+							<div class="submit">
+								<input type="button" name="" id="" value="提交"  onclick="btn1()"/>
+							</div>
+						</div>
+						
+						<div class="question">
+							<label class="quiz-content">
+							<strong>小牛因网络刷单被骗五万元，他觉得网络诈骗就要找网警报案，于是就通过网络搜索联系到了一名网络警察处理。请问他的做法是：</strong>
+							</label>
+							<div class="answers">
+							<input type="radio" value="1" name="bb" > A.对
+							<div class="clearfix"></div>
+							<input type="radio" value="2" name="bb" > B.错
+							</div>
+							<div id="show2">
+							正确答案：B、错。
+							</div>
+							<div class="submit">
+								<input type="button" name="" id="" value="提交"  onclick="btn2()"/>
+							</div>
+						</div>
+						
+						<div class="question">
+							<label class="quiz-content">
+							<strong>暑假,小鱼正在家里上网聊QQ,这时有个陌生人发来一条信息“轻松兼职,每天工作2小时,日入300元”,小鱼想反正在家也是闲着,找点事做也好,于是询问对方如何兼职。对方说兼职内容是帮淘宝商户刷信誉,只要“购买”他所发链接的“商品”,确认收货后给好评即可,操作简单,每单给5元钱手续费,会同购买商品钱一同打回到小鱼卡上。小鱼应该怎么做？</strong>
+							</label>
+							<div class="answers">
+							<input type="radio" value="1" name="bb" > A.不信,是骗子
+							<div class="clearfix"></div>
+							<input type="radio" value="2" name="bb" > B.先买个小额的商品试试
+							</div>
+							<div id="show3">
+							正确答案：A.不信,是骗子
+							</div>
+							<div class="submit">
+								<input type="button" name="" id="" value="提交"  onclick="btn3()"/>
+							</div>
+						</div>
+						
+					</div>
+			</form>			
+			<div class = "backbut">
+				<input type="image" src="./img/back.png" onclick="jump()">
+			</div>
+		</div>
+	</body>
+</html>
